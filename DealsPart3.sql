@@ -17,7 +17,7 @@ ALTER TABLE PlayerSupports
     
 ALTER TABLE PlayerSupports
 	ADD FOREIGN KEY (PlayerID)
-    REFERENCES Player (PlayerID);
+    REFERENCES Players (PlayerID);
     
 ALTER TABLE PlayerSupports
 	ADD FOREIGN KEY (SupportCodeID)
