@@ -30,4 +30,7 @@ ALTER TABLE Players
 ALTER TABLE Players
 	ADD FOREIGN KEY (RoleCode)
     REFERENCES RoleCodes (RoleCode);
-    
+
+ALTER TABLE Players
+	ADD FOREIGN KEY (DealID)
+    REFERENCES Deals (DealID);
